@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>🎥 Movify 🎬</h1>
+    <form id="searchbar" style="text-align: center;">
+        <input type="search" id="mySearch" name="" value="">
+        <button type="submit" id="searchBtn">Search</button>
+    </form>
+    <div class="cards-parent"></div>
+    <template id="movie-card-template">
+        <div class="card">
+            <img class="card-image" src="https://m.media-amazon.com/images/M/MV5BZjg2ZjViMTktNWQ1Yy00ODZiLWE1OTgtNDY3MjI0OGUyNjNhXkEyXkFqcGdeQXVyNTk4NDI4NTE@._V1_SX300.jpg" alt="zoya">
+            <div class="card-content">
+                <h2 id="title">Title : <span>Harry Potter</span></h2>
+                <h3 id="year">Year : <span>2001</span></h3>
+                <h4 class="movie-type">Type : <span>Movie</span></h4>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
